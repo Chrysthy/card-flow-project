@@ -128,29 +128,55 @@ body {
 }
 
 .fundo-1 {
-    background: url(../img/fundo-1.jpg);
+    background: url(../img/fundo-1.jpg) no-repeat;
 }
 
 .fundo-2 {
-    background: url(../img/fundo-2.jpg);
+    background: url(../img/fundo-2.jpg) no-repeat;
 }
 
 .fundo-3 {
-    background: url(../img/fundo-3.jpg);
+    background: url(../img/fundo-3.jpg) no-repeat;
 }
 
 .fundo-4 {
-    background: url(../img/fundo-4.jpg);
+    background: url(../img/fundo-4.jpg) no-repeat;
 }
 
 .fundo-5 {
-    background: url(../img/fundo-5.jpg);
+    background: url(../img/fundo-5.jpg) no-repeat;
 }
 
 .fundo-6 {
-    background: url(../img/fundo-6.jpg);
+    background: url(../img/fundo-6.jpg) no-repeat;
 }
 
 .fundo-7 {
-    background: url(../img/fundo-7.jpg);
+    background: url(../img/fundo-7.jpg) no-repeat;
+}
+
+.btn-seta {
+    color: #fff;
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50px;
+    border: 0;
+
+    cursor: pointer;
+
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-seta.btn-voltar {
+    transform: rotateY(180deg);
+}
+
+.btn-seta:hover {
+    background-color: #8351fe;
 }

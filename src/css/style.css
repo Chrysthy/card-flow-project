@@ -21,6 +21,7 @@ body {
     flex-direction: column;
 
     padding: 12px;
+    gap: 5px;
 }
 
 .cartao.selecionado {
@@ -86,6 +87,8 @@ body {
 
     text-align: letf;
     line-height: 1.5;
+
+    padding: 5px;
 }
 
 .cartao .informacoes .descricao {
@@ -113,4 +116,28 @@ body {
 
 .fundo-1 {
     background: url(../img/fundo-1.jpg);
+}
+
+.fundo-2 {
+    background: url(../img/fundo-2.jpg);
+}
+
+.fundo-3 {
+    background: url(../img/fundo-3.jpg);
+}
+
+.fundo-4 {
+    background: url(../img/fundo-4.jpg);
+}
+
+.fundo-5 {
+    background: url(../img/fundo-5.jpg);
+}
+
+.fundo-6 {
+    background: url(../img/fundo-6.jpg);
+}
+
+.fundo-7 {
+    background: url(../img/fundo-7.jpg);
 }

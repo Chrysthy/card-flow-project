@@ -48,4 +48,18 @@ body {
     text-transform: uppercase;
 
     background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
+    border: 2px solid #a67c52;
+
+    border-radius: 4px;
+}
+
+.cartao .estrela {
+    width: 20px;
+    height: 20px;
+
+    background-image: url(../img/nivel-carta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: inline-block;
 }

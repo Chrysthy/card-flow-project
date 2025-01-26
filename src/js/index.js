@@ -28,12 +28,11 @@ btnAvancar.addEventListener("click", function () {
         return
     }
 
-    const cartaoSelecionado = document.querySelector(".selecionado");
-
-    cartaoSelecionado.classList.remove("selecionado");
+    esconderCartaoSelecionado();
 
     cartaoAtual++;
-    cartoes[cartaoAtual].classList.add("selecionado");
+
+    mostrarCartao(cartaoAtual);
 
 })
 
@@ -43,11 +42,20 @@ btnVoltar.addEventListener("click", function () {
         return
     }
 
+    esconderCartaoSelecionado();
+
+    cartaoAtual--;
+
+    mostrarCartao(cartaoAtual);
+
+})
+
+function mostrarCartao(cartaoAtual) {
+    cartoes[cartaoAtual].classList.add("selecionado");
+}
+
+function esconderCartaoSelecionado() {
     const cartaoSelecionado = document.querySelector(".selecionado");
 
     cartaoSelecionado.classList.remove("selecionado");
-
-    cartaoAtual--;
-    cartoes[cartaoAtual].classList.add("selecionado");
-
-})
+}

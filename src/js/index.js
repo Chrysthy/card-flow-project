@@ -16,6 +16,10 @@ cartoes.forEach(cartao => {
 
         cartaVirada.classList.toggle("mostrar-fundo-carta");
 
+        const descricao = cartao.querySelector(".descricao");
+
+        descricao.classList.toggle("esconder");
+
     });
 });
 

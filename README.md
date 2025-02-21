@@ -15,3 +15,9 @@
 </p>
 
 <br>
+
+## 📸 Screenshots
+
+<img src="src/video/recv-project.gif" alt="video do projeto">
+
+<br>

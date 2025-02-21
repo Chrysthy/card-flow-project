@@ -21,3 +21,12 @@
 <img src="src/video/recv-project.gif" alt="video do projeto">
 
 <br>
+
+## 🛠 Technologies
+
+- HTML5
+- CSS 3
+- JavaScript
+- Git e GitHub
+
+<br>
